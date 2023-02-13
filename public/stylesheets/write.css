@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-X: hidden;
+}
+
+#main{
+    width: 100vw;
+}
+
+
+
+/* --------------page31------------- */
+#page31{
+    width: 100vw;
+    height: 110vh;
+    display: flex;
+    background-color:#F24D2E;
+}
+#page31_left{
+    width: 65vw;
+    height: 110vh;
+    padding: 10vw 0 0 2vw;
+    border-right: 0.1vw solid black;
+}
+#page31_left>h2{
+    font-size: 0.8vw;
+    letter-spacing: 0.5vw;
+    color: white;
+    font-family:"Soehne web dreiviertelfett", sans-serif;
+    font-weight: 800;
+}
+#page31_left>h1{
+    width: 50vw;
+    font-size: 6.8vw;
+    margin-top: 1vw;
+    font-family:"Gt super text book", Georgia, sans-serif;
+    font-weight: 500;
+}
+#page31_left>p{
+    width: 45vw;
+    font-size: 1.4vw;
+    margin-top: 3vw;
+    font-family:gilroy;
+    font-weight: 500;
+}
+
+#page31_left_btn{
+    width: 15vw;
+    height: 6.5vh;
+    font-size: 1.6vw;
+    font-family: gilroy;
+    border-radius: 6vw;
+    margin-top: 4vw;
+    cursor: pointer;
+    background-color: white;
+    border: 0.1vw solid white;
+}
+#page31_left_btn:hover{
+    background-color: #F24D2E;
+    transition: 0.3vw;
+    color: white;
+}
+
+#page31_right{
+    width: 35vw;
+    height: 110vh;
+}
+
+/* -----------------page32----------------- */
+#page32{
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    color: white;
+    background-color:black;
+}
+#page32_left{
+    width: 50vw;
+    height: 75v;
+    padding: 2vw 0 0 3vw;
+}
+#page32_left>h1{
+   width: 40vw;
+   font-size: 5.5vw;
+   font-family:"Gt super text book", Georgia, sans-serif;
+   font-weight: 400;
+}
+
+#page32_right{
+    width: 50vw;
+    height: 75vh;
+    padding: 2vw 2vw;
+}
+
+#page32_right_box1{
+    width: 43vw;
+    height: 11vh;
+    gap: 2vw;
+    padding: 0 0 0 0.5vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-top: 0.1vw solid white;
+}
+
+#page32_right_box1_main>h1{
+  font-size: 1.6vw;
+  font-family: gilroy;
+}
+
+#page32_right_box1_main>h3{
+    font-size: 1.2vw;
+    font-family: gilroy;
+    font-weight: 400;
+  }
+
+  /* ------------------page33---------------- */
+  #page33{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    background-color: #FFD1B9;
+  }
+  #page33_left{
+    width: 100vw;
+    height: 90vh;
+    padding: 3vw;
+  }
+  #page33_left>h1{
+    width: 30vw;
+    font-size: 6vw;
+    font-weight: 500;
+    font-family:"Gt super text book", Georgia, sans-serif;
+  }
+  #page33_left>h3{
+    width: 34vw;
+    font-size: 1.4vw;
+    font-weight: 500;
+    margin-top: 17vw;
+    font-family: gilroy;
+  }
+
+  #page33_left_btn{
+    width: 15vw;
+    height: 6.5vh;
+    font-size: 1.5vw;
+    font-family: gilroy;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 1vw;
+    border-radius: 5vw;
+  }
+  #page33_left_btn:hover{
+   background-color:  #3D322C;
+   transition: 0.3s;
+  }
+
+  /* right */
+  #page33_right{
+    width: 100vw;
+    height: 90vh;
+    padding: 3vw 0 0 3vw;
+  }
+  #page33_right>img{
+    width: 40vw;
+    margin-top: 2.4vw;
+  }
+
+  /*------------------page34--------------------*/
+  #page34{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    background-color:#FFD1B9;
+    border-top: 0.1vw solid black;
+    border-bottom: 0.1vw solid black;
+  }
+
+  /* left */
+  #page34_left{
+    width: 50vw;
+    height: 40vh;
+    padding: 3vw;
+    border-right: 0.1vw solid black;
+  }
+  #page34_left>h1{
+    font-size: 3.5vw;
+    font-family: "Gt super text book", Georgia, sans-serif;
+    font-weight: 300;
+  }
+
+  #page34_left>h3{
+    width: 35vw;
+    font-size: 1.2vw;
+    font-family: gilroy;
+    font-weight: 300;
+    margin-top: 3vw;
+  }
+
+  /* right */
+  #page34_right{
+    width: 50vw;
+    height: 40vh;
+    padding: 3vw;
+  }
+  #page34_right>h1{
+    font-size: 3.5vw;
+    font-family: "Gt super text book", Georgia, sans-serif;
+    font-weight: 300;
+  }
+
+  #page34_right>h3{
+    width: 32vw;
+    font-size: 1.2vw;
+    font-family: gilroy;
+    font-weight: 300;
+    margin-top: 3vw;
+  }
+
+  /* -----------------page35------------------ */
+  #page35{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  #page35>h1{
+    width:60vw;
+    font-size: 6vw;
+    font-weight: 400;
+    font-family:"Gt super text book", Georgia, sans-serif;
+  }
+  #page35>h3{
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin-top: 2vw;
+    font-family:gilroy;
+  }
+
+  /* -----------------page36---------------- */
+#page36{
+    width: 100vw;
+    height: 80vh;
+    border-top: 0.1vw solid black;
+    border-bottom: 0.1vw solid black;
+    overflow: hidden;
+    display: flex;
+}
+#page36_left{
+    width: 40vw;
+    height: 80vh;
+    padding: 2.5vw; 
+    border-right: 0.1vw solid black;
+
+}
+#page36_left>h1{
+    font-size: 3vw;
+    font-family:"Gt super text book", Georgia, sans-serif;
+    font-weight: 400;
+}
+#page36_left>h3{
+    font-size: 1.5vw;
+    font-family:gilroy;
+    font-weight: 400;
+    margin-top: 4vw;
+}
+#page36_left>img{
+    width: 28vw;
+    margin-top: 4vw;
+}
+
+/* right */
+#page36_right{
+    width: 60vw;
+    height: 80vh;
+}
+
+/* top */
+#page36_right_top{
+    width: 60vw;
+    height: 40vh;
+    display: flex;
+}
+
+#page36_right_top_left{
+    width: 30vw;
+    height: 40vh;
+    padding: 2vw;
+    border-right: 0.1vw solid black;
+   
+}
+#page36_right_top_left>h1{
+    font-size: 2.5vw;
+    font-family:"Gt super text book", Georgia, sans-serif;
+    font-weight: 400;
+}
+
+#page36_right_top_left>h3{
+    font-size: 1.4vw;
+    font-family:gilroy;
+    font-weight: 400;
+    margin-top: 6vw;
+}
+
+#page36_right_top_right{
+    width: 30vw;
+    height: 40vh;
+    padding: 2vw;
+}
+
+#page36_right_top_right>h1{
+    font-size: 2.5vw;
+    font-family:"Gt super text book", Georgia, sans-serif;
+    font-weight: 400;
+}
+
+#page36_right_top_right>h3{
+    font-size: 1.4vw;
+    font-family:gilroy;
+    font-weight: 400;
+    margin-top: 6vw;
+}
+
+/* bottem */
+#page36_right_bottem{
+    width: 60vw;
+    height: 40vh;
+    display: flex;
+    border-top: 0.1vw solid black;  
+}
+
+#page36_right_bottem_left{
+    width: 20vw;
+    height: 40vh;
+    padding: 2vw;
+    border-right: 0.1vw solid black; 
+}
+#page36_right_bottem_left>h1{
+   font-size: 2.5vw;
+   font-family:"Gt super text book", Georgia, sans-serif;
+   font-weight: 400;
+}
+#page36_right_bottem_left>h3{
+    font-size: 1.3vw;
+    font-family:gilroy;
+    margin-top: 3.5vw;
+    font-weight: 400;
+ }
+
+
+#page36_right_bottem_bottem{
+    width: 20vw;
+    height: 40vh;
+    padding: 2vw;
+    border-right: 0.1vw solid black; 
+}
+
+#page36_right_bottem_bottem>h1{
+    font-size: 2.5vw;
+    font-family:"Gt super text book", Georgia, sans-serif;
+    font-weight: 400;
+ }
+#page36_right_bottem_bottem>h3{
+     font-size: 1.3vw;
+     font-family:gilroy;
+     margin-top: 3.5vw;
+     font-weight: 400;
+  }
+
+#page36_right_bottem_right{
+    width: 20vw;
+    height: 40vh;
+    padding: 2vw;
+}
+
+#page36_right_bottem_right>h1{
+    font-size: 2.5vw;
+    font-family:"Gt super text book", Georgia, sans-serif;
+    font-weight: 400;
+ }
+#page36_right_bottem_right>h3{
+     font-size: 1.3vw;
+     font-family:gilroy;
+     margin-top: 3.5vw;
+     font-weight: 400;
+  }
+
+  /* ------------------page37-------------- */
+  #page37{
+    width: 100vw;
+    height: 70vh;
+    padding: 4vw 0 0 3vw;
+    color: white;
+    background-color: #34A245;
+  }
+  #page37>h1{
+    width: 50vw;
+    font-size: 6vw;
+    font-weight: 400;
+    line-height: 6vw;
+    font-family:"Gt super text book", Georgia, sans-serif;
+  }
+  #page37>h3{
+    width: 39vw;
+    font-size: 1.3vw;
+    font-weight: 400;
+    font-family:gilroy;
+    margin-top: 2vw;
+  }
+  #page37_btn{
+    width: 14vw;
+    height: 6.5vh;
+    border-radius: 5vw;
+    font-size: 1.7vw;
+    font-weight: 500;
+    font-family: gilroy;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-top: 3vw;
+  }
+  #page37_btn:hover{
+    background-color: #0C2711;
+    transition: 0.3s;
+  }
+ 

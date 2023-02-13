@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.mainpage{
+    width: 100vw;
+    height: 100vh;
+    background-color: #d8d6cd;
+    position: relative;
+}
+
+.cross{
+    top: 1.5%;
+    left: 72%;
+    position: absolute;
+
+}
+.signinbox{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+}
+
+/* .box{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    background-color: aqua;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+} */
+.title_h1{
+    font-size: 2.1vw;
+    font-family: gilroy;
+    font-family: gilroy;
+    font-weight: 10;
+    color: rgb(12, 12, 12);
+}
+.title_h3{
+    width: 22vw;
+    font-size: 1.2vw;
+    font-family: gilroy;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 0.5vw;
+    color: rgb(12, 12, 12);
+}
+.title_h4{
+    font-size: 1.2vw;
+    font-family: gilroy;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 2.7vw;
+    color: rgb(12, 12, 12);
+}
+.email1{
+    width: 20vw;
+    height: 5vh;
+    border: none;
+    border-bottom: 0.1vw solid black;   
+    margin-top: 2vw;
+    font-size: 1.2vw;
+    outline: none;
+
+    
+}
+.continue_btn{
+    margin-top: 3vw;
+}
+.continue_btn>button{
+    width: 16vw;
+    height: 6vh;
+    font-size: 1.1vw;
+    font-weight: 100;
+    font-family: gilroy;
+    border-radius: 5vw;
+    border: none;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    cursor: pointer;
+}
+.continue_btn>button:hover{
+    background-color: black;
+}
+.form_page{
+    width: 40vw;
+    height: 40vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.continue_desc{
+    margin-top: 2.5vw;
+    font-family: gilroy;
+    font-size: 1.1vw;
+    font-weight: 100;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vw;
+    color: green;
+
+}
+
+

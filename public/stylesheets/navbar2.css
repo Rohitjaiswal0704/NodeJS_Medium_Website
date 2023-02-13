@@ -1,0 +1,47 @@
+#navbar{
+    width: 98.75vw;
+    height: 13vh;
+    display: flex;
+    position: absolute;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F24D2E;
+    padding: 0 4vw ;
+    border-bottom: 0.1vw solid black;
+}
+
+#navbar>a{
+  text-decoration: none;
+}
+#navbar>a>h1{
+    font-size: 2.7vw;
+    color: black;
+    text-decoration-line: none;
+    font-family: gilroy;
+}
+#navbar>div{
+    width: 19vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar>div>a{
+    font-size: 1.2vw;
+    text-decoration: none;
+    font-family: gilroy; 
+    color: black; 
+    font-weight: 100;
+}
+
+#nav_btn{
+    width: 13vw;
+    height: 6vh;
+    border-radius: 5vw;
+    font-size: 1.5vw;
+    color: white;
+    font-family: gilroy;
+    cursor: pointer;
+    background-color: black;
+
+}

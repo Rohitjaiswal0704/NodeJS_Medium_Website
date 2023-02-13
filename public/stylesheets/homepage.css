@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-X: hidden;
+}
+#main{
+    width: 100vw;
+}
+
+#page1{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    background-color: #FFC017;
+}
+#page1_left{
+    width: 50vw;
+    height: 70vh;
+    padding: 0 0 0 5vw;
+}
+#page1_left>h1{
+    font-family:gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 6.5vw;
+    font-weight: 400;
+    margin-top: 11.5vw;
+}
+
+#page1_left>h5{
+    width: 36vw;
+    font-family:gilroy;
+    font-size: 1.9vw;
+    font-weight: 400;
+    line-height: 1.9vw;
+    margin-top: 1.5vw;
+}
+.btn1{
+    width: 16vw;
+    height: 7vh;
+    background-color: #080808;
+    color: white;
+    font-family: gilroy;
+    font-size: 1.5vw;
+    border-radius: 2vw;
+    cursor: pointer;
+    margin-top: 4vw;
+
+}
+
+#page1_right{
+    width: 50vw;
+    height: 70vh;
+}
